@@ -1,0 +1,16 @@
+{
+  "name": "@curetix/utils",
+  "version": "1.0.0",
+  "type": "module",
+  "module": "src/index.ts",
+  "exports": "./src/index.ts",
+  "scripts": {
+    "build": "bun build --entrypoints ./src/index.ts --outdir ./dist"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
